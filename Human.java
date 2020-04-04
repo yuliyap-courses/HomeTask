@@ -39,6 +39,15 @@ class Engineer extends Person {
     }
 }
 
+class AutomatedQA extends Engineer{
+
+    public AutomatedQA(int age, String name, String surname)
+    {
+        super(age, name, surname);
+    }
+
+
+}
 
 
 
