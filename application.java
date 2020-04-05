@@ -9,6 +9,7 @@ public class application {
         manual.executeCode();
         automated.executeCode();
         automated.setVoice();
+        manual.setVoice();
 
 
     }

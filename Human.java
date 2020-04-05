@@ -12,7 +12,7 @@ public class Human {
     }
 }
 
-class Person extends Human{
+class Person extends Human {
     String name;
     String surname;
 
