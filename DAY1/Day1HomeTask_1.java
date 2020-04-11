@@ -1,4 +1,4 @@
-package HomeTask.HomeTask;
+package HomeTask.HomeTask.DAY1;
 
 public class Day1HomeTask_1 {
 
