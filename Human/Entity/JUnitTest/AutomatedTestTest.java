@@ -12,7 +12,7 @@ public class AutomatedTestTest {
 
     @Test
     public void AutomatedTest() {
-        AutomatedTest AutomatedTest = new AutomatedTest(TestLevel.UNIT, 6);
+        AutomatedTest AutomatedTest = new AutomatedTest(TestLevel.UNIT, 3);
         Engineer testEngineer = new Engineer();
         Assert.assertEquals("AutomatedTest, AutomationEngineer, UNIT(1), instability 4, anxiety 3: ",
                 Result.PASSED, AutomatedTest.apply(testEngineer));

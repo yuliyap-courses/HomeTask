@@ -26,8 +26,9 @@ public abstract class Test implements Function<Engineer, Result>  {
     public Test(TestLevel testLevel) {
         this.complexity = testLevel.COMPLEXITY;
     }
-    @Override
+
     public Result apply(Engineer engineer) {
+
         int anxiety;
         if ((this instanceof ManualTest && engineer instanceof AutomatedQA) ||
                 (this instanceof AutomatedTest && engineer != null))

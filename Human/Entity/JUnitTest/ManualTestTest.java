@@ -12,7 +12,7 @@ import org.junit.Test;
 public class ManualTestTest {
     @Test
     public void manualTestPassed() {
-        ManualTest manualTest = new ManualTest(TestLevel.UNIT, 3);
+        ManualTest manualTest = new ManualTest(TestLevel.UNIT, 2);
         Engineer testEngineer = new Engineer();
         Assert.assertEquals("ManualTest, AutomationEngineer, UNIT(1), instability 4, anxiety 3: ",
                              Result.PASSED, manualTest.apply(testEngineer));

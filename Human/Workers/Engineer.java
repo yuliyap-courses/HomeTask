@@ -1,6 +1,6 @@
 package HomeTask.HomeTask.Human.Workers;
 import HomeTask.HomeTask.Human.Entity.*;
-public abstract class Engineer{
+public class Engineer{
 
     int anxiety = 3;
     int skills;

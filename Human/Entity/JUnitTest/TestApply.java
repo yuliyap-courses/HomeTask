@@ -4,7 +4,7 @@ import org.junit.Test;
 
 public class TestApply {
     int complexity = 8;
-    int anxiety = 1;
+    int anxiety = 5;
     int instability = 3;
 
     @Test
