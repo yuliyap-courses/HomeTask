@@ -1,4 +1,4 @@
-package HomeTask.HomeTask;
+package HomeTask.HomeTask.DAY1;
 
 import java.util.Scanner;
 import java.util.Arrays;
