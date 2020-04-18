@@ -26,7 +26,7 @@ public abstract class Test implements Function<Engineer, Result> {
         }
     }
 
-   /*int Skills() {
+   int Skills() {
         Scanner in = new Scanner(System.in);
         System.out.print("Input a number: ");
         if (skills >= 1) {
@@ -34,11 +34,11 @@ public abstract class Test implements Function<Engineer, Result> {
         } else {
             return 10;
         }
-    }*/
+    }
 
-    /*public int setSkills(int skills) {
+    public int setSkills(int skills) {
         return Skills();
-    }*/
+    }
 
     public int getSkills(int skills){
         return this.skills;
