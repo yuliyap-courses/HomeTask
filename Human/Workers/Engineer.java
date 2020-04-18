@@ -2,19 +2,17 @@ package HomeTask.HomeTask.Human.Workers;
 import HomeTask.HomeTask.Human.Entity.*;
 public class Engineer{
 
-    int anxiety = 3;
     int skills;
+    int anxiety = 3;
+
 
 public int getAnxiety(){
 
     return anxiety;
 }
 
-public int getSkills(){
+    public int getSkills(){
     return skills;
-    }
-        public void setSkills(){
-        this.skills = (int) (1 + Math.random() * 10);
     }
 
     public Result executeTest(Test test) {
