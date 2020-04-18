@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 public class SkillsTest {
     @Test
     public void Skills(){
-        assertTrue("Expression is grater than 30", true);
+        assertTrue("Expression is grater than 31", true);
         assertFalse("Expression is grater than 40", false);
         assertEquals("Expression is grater than 80", false, false);
     }
