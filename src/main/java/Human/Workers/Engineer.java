@@ -10,7 +10,7 @@ public class Engineer{
     int anxiety;
 
 
-public static int getAnxiety(){
+public int getAnxiety(){
     return this.anxiety;
 
 }

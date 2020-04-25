@@ -1,6 +1,7 @@
 package Human.Workers;
 
 
+
 public class AutomatedQA extends Engineer {
 
     public  AutomatedQA() {}

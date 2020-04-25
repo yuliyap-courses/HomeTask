@@ -5,9 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>DAY6</artifactId>
+    <artifactId>untitled</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -65,5 +64,5 @@
         <maven.compiler.target>1.7</maven.compiler.target>
     </properties>
 
-</project>
 
+</project>
