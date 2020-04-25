@@ -1,0 +1,8 @@
+Human/Entity/Test.class
+Human/Entity/ManualTest.class
+Human/Workers/Engineer.class
+Human/Entity/Result.class
+Human/Entity/TestLevel.class
+Human/Entity/AutomatedTest.class
+Human/Workers/AutomatedQA.class
+Human/Workers/ManualQA.class
