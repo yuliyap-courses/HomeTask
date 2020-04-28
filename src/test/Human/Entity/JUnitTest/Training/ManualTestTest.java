@@ -1,9 +1,8 @@
-package Human.Entity.JUnitTest;
+package Training;
 
 import Human.Entity.ManualTest;
 import Human.Entity.Result;
 import Human.Entity.TestLevel;
-import Human.Workers.Engineer;
 import org.junit.Assert;
 import org.junit.Test;
 

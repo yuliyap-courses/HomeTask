@@ -1,10 +1,17 @@
 package Human.Entity;
 
-public class AutomatedTest extends Test {
+import Workers.Engineer;
+import org.testng.annotations.Test;
 
-    public AutomatedTest(TestLevel testLevel, int instability) {
-        super(testLevel, instability);
-        this.setInstability(instability);
+public abstract class AutomatedTest implements Test {
+
+    public AutomatedTest(Human.Entity.TestLevel testLevel, int instability) {
+        setInstability(instability);
+    }
+
+    protected abstract void setInstability(int instability);
+
+    public Human.Entity.Result apply(Engineer testEngineer) {
     }
 }
 

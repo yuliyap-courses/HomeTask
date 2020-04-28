@@ -1,4 +1,4 @@
-package Human.Entity.JUnitTest;
+package Training;
 
 import org.junit.Test;
 

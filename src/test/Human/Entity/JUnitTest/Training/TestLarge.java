@@ -1,4 +1,4 @@
-package Human.Entity.JUnitTest;
+package Training;
 
 import Human.Entity.AutomatedTest;
 import Human.Entity.ManualTest;

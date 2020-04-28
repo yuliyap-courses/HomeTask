@@ -3,7 +3,7 @@ package Human.Entity.JUnitTest;
 import Human.Entity.AutomatedTest;
 import Human.Entity.Result;
 import Human.Entity.TestLevel;
-import Human.Workers.Engineer;
+import Workers.Engineer;
 import org.junit.Assert;
 import org.junit.Test;
 //this test need to  be fixed

@@ -1,14 +1,12 @@
-package Human.Workers;
-
-
+package Workers;
 
 public class AutomatedQA extends Engineer {
 
     public  AutomatedQA() {}
 
     @Override
-    public int getSkills() {
-        return super.getSkills();
+    public int getSkill() {
+        return super.getSkill();
     }
 }
 
